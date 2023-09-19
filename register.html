@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+     <h2 align="center" id="registration">Registration Form</h2>
+    <form action="noaction.php" align="center">
+        <label for="name">First Name:</label> <br>
+        <input type="text" name="fname" id="First Name" placeholder="First Name">
+        <br>
+        <label for="name">Last Name:</label> <br>
+        <input type="text" name="lname" id="Last Name" placeholder="Last Name">
+        <br>
+        <label for="email">E-mail :</label> <br>
+        <input type="email" name="email" placeholder="Domain@gmail.com" id="email">
+        <br>
+        <label for="password">Password:</label> <br>
+        <input type="password" name="password" id="password" placeholder="password" minlength="6">
+        <br>
+        <label for="Number">Ph.Number</label> <br>
+        <input type="tel" minlength="7" maxlength="11" placeholder="123-345-3456">
+        <br>
+        <label for="gender">Gender :</label> <br>
+        Male<input type="radio" name="gender" id="mgender">
+        Female<input type="radio" name="gender" id="fgender">
+        Others<input type="radio" name="gender" id="ogender">
+        <br>
+        <label for="language">Language:</label> <br>
+        <input type="text" name="language-known" id="language" placeholder="English,hindi...">
+        <br>
+        About:
+        <br>
+        <textarea name="About" id="about" cols="30" rows="5" placeholder="Write something here"></textarea>
+        <br>
+        <input type="button" value="Register">
+        <input type="button" value="Reset">
+    </form>
+</body>
+</html>
